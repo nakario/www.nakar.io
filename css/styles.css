@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    background-image: url("../img/background.jpg");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container {
+    margin-left: 10vw;
+    margin-bottom: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+h1 {
+    font-size: 10vmin;
+    color: white;
+    margin: 0;
+}
+
+.items {
+    font-size: 5vmin;
+    color: white;
+    margin: 0;
+}
+
+a {
+    color: white;
+}
