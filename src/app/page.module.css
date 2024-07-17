@@ -5,10 +5,13 @@
 /*
   beercss's "min" class for tables is not working
   due to over-optimization of max-inline-size
-  from 0% to 0
+  from 0% to 0.
+  Also, inline-size: 0 doesn't work in Safari.
+  Use 0.001px is a workaround from
+  https://github.com/beercss/beercss/issues/333
 */
 .min-bugfix {
-  inline-size: 0;
+  inline-size: 0.001px;
   max-inline-size: min-content;
   white-space: nowrap;
 }
