@@ -1,0 +1,14 @@
+.hero {
+  height: 28rem;
+}
+
+/*
+  beercss's "min" class for tables is not working
+  due to over-optimization of max-inline-size
+  from 0% to 0
+*/
+.min-bugfix {
+  inline-size: 0;
+  max-inline-size: min-content;
+  white-space: nowrap;
+}
